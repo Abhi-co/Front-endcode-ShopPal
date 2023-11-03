@@ -1,0 +1,39 @@
+/* Navbar container */
+.navbar {
+    background-color: #333; /* Change the background color to your preference */
+    color: #fff; /* Text color */
+    padding: 10px; /* Adjust the padding to your liking */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar brand/logo */
+  .navbar-brand a {
+    text-decoration: none;
+    font-size: 1.5rem; /* Adjust the font size */
+  }
+  
+  /* Navbar menu items */
+  .navbar-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #fff; /* Text color for menu items */
+    font-size: 1rem; /* Adjust the font size */
+    transition: color 0.2s; /* Add a smooth color transition effect */
+  }
+  
+  /* Change link color on hover */
+  .navbar-menu a:hover {
+    color: #ff6600; /* Change the color on hover to your preference */
+  }
+  
